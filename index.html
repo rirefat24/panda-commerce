@@ -11,7 +11,7 @@
 <body>
     <!--This is the top navigation bar-->
    <div class="container">  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,16 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Backpacks</a>
+                <a class="nav-link" href="#backpacks">Backpacks</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+              <a class="nav-link" href="#watches">Watches</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe us</a>
             </li>
             
           </ul>
@@ -124,8 +127,134 @@
    </div>
 
 
+   <!--This is the menu card part of shoes-->
+   <div class="container shoes" id="shoes">
+     <h3>Shoes</h3>
+     <div class="card-deck">
+      <div class="card">
+        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+        <div class="card-body ">
+          <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h3>799$</h3>
+          <p class="card-text"><small class="text-muted">In Stock</small></p>
+          <button class="card-button">Buy Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reebok Pump</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h3>699$</h3>
+          <p class="card-text"><small class="text-muted">In Stock</small></p>
+          <button class="card-button">Buy Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reebok All Terrain</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p>
+          <h3>599$</h3>
+          <p class="card-text"><small class="text-muted">Out of Stock</small></p>
+          <button class="card-button">Buy Now</button>
+        </div>
+      </div>
+      
+    </div>
+   </div>
 
+
+   <!--This is the menu card part of backpacks-->
+   <div class="container backpacks" id="backpacks">
+    <h3>Backpacks</h3>
+    <div class="card-deck">
+     <div class="card">
+       <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+       <div class="card-body ">
+         <h5 class="card-title">Ison Backpack</h5>
+         <p class="card-text">Some quick example text to build on the card title.</p>
+         <h3>320$</h3>
+         <p class="card-text"><small class="text-muted">In Stock</small></p>
+         <button class="card-button">Buy Now</button>
+       </div>
+     </div>
+     <div class="card">
+       <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Biaowang Backpack </h5>
+         <p class="card-text">Some quick example text to build on the card title.</p>
+         <h3>470$</h3>
+         <p class="card-text"><small class="text-muted">Out of Stock</small></p>
+         <button class="card-button">Buy Now</button>
+       </div>
+     </div>
+     <div class="card">
+       <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Reebok All Terrain</h5>
+         <p class="card-text">Some quick example text to build on the card title.</p>
+         <h3>450$</h3>
+         <p class="card-text"><small class="text-muted">In Stock</small></p>
+         <button class="card-button">Buy Now</button>
+       </div>
+     </div>
+   </div>
+  </div>
+
+
+  <!--This is the menu card part of watches-->
+  <div class="container watches" id="watches">
+    <h3>Watches</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/watches/watch-5.webp" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sport RS</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h3>450$</h3>
+          <p class="card-text"><small class="text-muted">In Stock</small></p>
+         <button class="card-button">Buy Now</button>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/watches/watch-1.jpg" class="card-img-top  watch" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Casio</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <h3>450$</h3>
+          <p class="card-text"><small class="text-muted">In Stock</small></p>
+         <button class="card-button">Buy Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/watches/watch-2.jpg" class="card-img-top  watch " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rolex</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <h3>450$</h3>
+          <p class="card-text"><small class="text-muted">In Stock</small></p>
+         <button class="card-button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
+<!--Botom Part -->>
+  <div class="container  d-flex align-items-center justify-content-center orange-bg " id="subscribe">   
+    <div>
+      <h3>Let's stay in.</h3>
+      <h6>Get updates, specials and more.</h6>
+      <input class="form-control" type="text">
+      <button class="buy-now-button">Submit</button>   
+    </div>
+  </div>
+
+  <footer>
+    <p>©2020. Panda Commerce. All rights reserved.</p>
+  </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -133,6 +262,7 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+
 
 </body>
 </html>

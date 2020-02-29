@@ -19,6 +19,19 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.card{
+   border: none;
+   box-shadow: 5px 5px 10px lightgray ;
+   text-align: center;
+}
+.card-button{
+    background-image: linear-gradient(to right, black, rgb(59, 57, 57));
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
 .category-1, .category-2, .category-3{
     padding: 10px 30px;
     border-radius: 20px;
@@ -38,4 +51,15 @@
 }
 .categories img{
     width: 100px;
+}
+.watch{
+    width: 88%;
+    text-align: center;
+    
+}
+#subscribe{
+    height: 300px;
+}
+footer{
+    text-align: center;
 }
